@@ -24,7 +24,7 @@ Requires Python 3.6.
 ## IP to ASN database
 You also need to provide a IP to ASN database for pyasn. 
 
-I strongly suggest that you update the database with [the following script](https://github.com/hadiasghari/pyasn/blob/master/pyasn-utils/pyasn_util_download.py)
+I strongly suggest that you update the database with [the following scripts](https://github.com/hadiasghari/pyasn/tree/master/pyasn-utils)
 
 ## Usage
 
