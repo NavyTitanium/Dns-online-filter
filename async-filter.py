@@ -122,7 +122,7 @@ def lauch(domain):
 		
 
 def usage(code=0):
-    print('Usage: async-filter.py list-domains.txt')
+    print('Usage: async-filter.py domains.txt')
     exit(code)
 
 if len(sys.argv) != 2:
