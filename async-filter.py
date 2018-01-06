@@ -9,7 +9,7 @@ import sys
 import os.path
 
 # The database to correlate IP with ASN
-ip_to_as = "ipasn_20171223.dat"
+ip_to_as = "ipasn_201801.dat"
 asndb = ""
 
 if os.path.exists(ip_to_as):
