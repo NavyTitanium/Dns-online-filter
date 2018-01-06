@@ -1,5 +1,5 @@
 # dns-online-filter
-Filter domains based on DNS threat blocking providers intelligence. Does not required to have any blocklist. 
+Filter 'A' records query based on DNS threat blocking providers intelligence. Does not required to have any blocklist. 
 
 It instead make use of: 
 * Quad9 (9.9.9.9, 149.112.112.112)
