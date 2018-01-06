@@ -1,4 +1,4 @@
-# dns-online-filter
+# DNS Online Filter
 Filters 'A' records query based on DNS threat blocking providers intelligence. Does not required to have any blocklist. 
 
 It instead make use of: 
