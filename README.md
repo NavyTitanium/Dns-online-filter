@@ -1,5 +1,7 @@
 # dns-online-filter
-Query 
+Filter domains based on DNS threat blocking providers intelligence. Does not required to have any blocklist. 
+
+It instead make use of: 
 * Quad9 (9.9.9.9, 149.112.112.112)
 * Strongarm (54.174.40.213, 52.3.100.184)
 * SafeDNS (195.46.39.39, 195.46.39.40)
@@ -26,10 +28,10 @@ I strongly suggest that you update the database with [the following script](http
 
 ## Usage
 
-async-test.py domains.txt
+async-filter.py domains.txt
 ## Output
 ```
-[root@localhost]# python3.6 async-test.py domains.txt 
+[root@localhost]# python3.6 async-filter.py domains.txt 
 google.com --> safe
 cnn.com --> safe
 stat-dns.com --> unsafe, filtered by NortonConnectSafe
