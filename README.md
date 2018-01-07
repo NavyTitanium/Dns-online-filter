@@ -56,7 +56,7 @@ www.prorammexico.com --> unsafe, filtered by Strongarm
 -------------RESULT-------------
 2/18 Safe
 16/18 Blocked
-Total time: 18.583242893218994
+Total time: 9.669567823410034
 ```
 ### domains.txt
 
