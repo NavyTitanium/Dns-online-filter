@@ -1,5 +1,5 @@
 # DNS Online Filter
-Decides if provided domains are safe based on DNS threat blocking providers intelligence. Does not required to have any blocklist. 
+Decides if provided domains are safe based on DNS threat blocking providers intelligence. Does not require to have any blocklist. 
 
 It instead make use of: 
 * Quad9 (9.9.9.9, 149.112.112.112)
