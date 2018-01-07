@@ -1,18 +1,20 @@
 # DNS Online Filter
-Decides if provided domains are safe based on DNS threat blocking providers intelligence. Does not require to have any blocklist. 
+Decides if provided domains are safe based on DNS threat blocking providers intelligence.
 
-It instead make use of: 
+Blocklists are not required. Instead, it makes use of the following public DNS resolvers: 
 * Quad9 (9.9.9.9, 149.112.112.112)
 * Strongarm (54.174.40.213, 52.3.100.184)
 * SafeDNS (195.46.39.39, 195.46.39.40)
 * ComodoSecure (8.26.56.26, 8.20.247.20)
 * NortonConnectSafe (199.85.126.30, 199.85.127.30)
 
-public DNS resolvers in parallels to verify if the domain is safe.
-If a provider returns either **NXDOMAIN**, **NODATA** or a sinkholed IP address for a specified domain, it  will end other queries and return False (domain unsafe).
+in parallel to verify if the domain is safe.
+
+If a provider returns either **NXDOMAIN**, **NODATA** or a sinkholed IP address for a specified domain, it will end other queries and return False (domain unsafe).
+
 If all providers correctly resolve the domain, it will be considered safe.
 
-You can add as many threat blocking DNS providers as you want to the script. Those 5 providers were choose only for the POC.
+You can add as many threat blocking DNS providers as you want to the script. The 5 providers were chosen to demonstrate the proof of concept.
 
 ## Setup
 Requires Python 3.6.
@@ -22,7 +24,7 @@ Requires Python 3.6.
 * [pyasn](https://github.com/hadiasghari/pyasn)
 
 ## IP to ASN database
-You also need to provide a IP to ASN database for pyasn. 
+You also need to provide an IP to ASN database for pyasn. 
 
 I strongly suggest that you update the database with [the following scripts](https://github.com/hadiasghari/pyasn/tree/master/pyasn-utils)
 
