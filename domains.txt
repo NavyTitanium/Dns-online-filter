@@ -1,4 +1,5 @@
 google.com
+cnn.com
 stat-dns.com
 www.zonemach.com
 www.yasli-sad.ru
