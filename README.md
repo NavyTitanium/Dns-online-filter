@@ -27,8 +27,9 @@ You also need to provide a IP to ASN database for pyasn.
 I strongly suggest that you update the database with [the following scripts](https://github.com/hadiasghari/pyasn/tree/master/pyasn-utils)
 
 ## Usage
-
+```
 async-filter.py domains.txt
+```
 ## Output
 ```
 [root@localhost]# python3.6 async-filter.py domains.txt 
